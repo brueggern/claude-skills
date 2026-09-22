@@ -7,6 +7,9 @@ argument-hint: <spec number, slug, or path>
 
 Plan the implementation of the spec identified by: $ARGUMENTS
 
+**First action, before reading anything: call EnterPlanMode** (skip only if plan mode is
+already active). Everything below happens in plan mode — no edits, no code written.
+
 ## 1. Find the spec
 
 Locate the specs folder the same way `/spec-new` does: a CLAUDE.md location, else an existing
@@ -30,8 +33,6 @@ Stop and ask with AskUserQuestion when:
 Do not edit the spec yourself; propose the change and let the user decide.
 
 ## 3. Plan
-
-Enter plan mode if not already in it. Planning only — no edits, no code written.
 
 The plan names the files to change or create, the existing functions and modules to reuse
 (with paths), the order of work, and the tests to add or update. It covers every acceptance
