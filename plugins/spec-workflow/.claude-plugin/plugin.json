@@ -1,0 +1,11 @@
+{
+  "name": "spec-workflow",
+  "description": "Spec-driven feature workflow: /spec-new interviews you and writes the specification, /spec-plan turns it into an implementation plan.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Nicolas Brügger"
+  },
+  "repository": "https://github.com/brueggern/claude-skills",
+  "license": "MIT",
+  "keywords": ["spec", "planning", "workflow"]
+}

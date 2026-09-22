@@ -1,0 +1,13 @@
+{
+  "name": "claude-skills",
+  "owner": {
+    "name": "Nicolas Brügger"
+  },
+  "plugins": [
+    {
+      "name": "spec-workflow",
+      "source": "./plugins/spec-workflow",
+      "description": "Spec-driven feature workflow: /spec-new interviews you and writes the specification, /spec-plan turns it into an implementation plan."
+    }
+  ]
+}
